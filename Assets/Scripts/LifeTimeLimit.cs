@@ -14,6 +14,6 @@ public class LifeTimeLimit : MonoBehaviour {
 	IEnumerator LifeTimer()
 	{
 		yield return new WaitForSeconds(lifeTime);
-		Destroy(this);
+		Destroy(gameObject);
 	}
 }
